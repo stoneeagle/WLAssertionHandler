@@ -6,7 +6,6 @@ target 'WLAssertionHandlerTest' do
   # use_frameworks!
 
   # Pods for WLAssertionHandlerTest
-  pod 'JRSwizzle' 
   pod 'WLAssertionHandler'
 
 end
