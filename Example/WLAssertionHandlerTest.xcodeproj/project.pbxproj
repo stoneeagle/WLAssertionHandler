@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A233B7821EC8049004B25F2 /* WLAssertionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A233B7721EC8049004B25F2 /* WLAssertionContext.m */; };
 		3AD826BA21E8A2DA004F5CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD826B921E8A2DA004F5CCA /* AppDelegate.m */; };
 		3AD826BD21E8A2DA004F5CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD826BC21E8A2DA004F5CCA /* ViewController.m */; };
 		3AD826C021E8A2DA004F5CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD826BE21E8A2DA004F5CCA /* Main.storyboard */; };
 		3AD826C221E8A2DC004F5CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD826C121E8A2DC004F5CCA /* Assets.xcassets */; };
 		3AD826C521E8A2DC004F5CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD826C321E8A2DC004F5CCA /* LaunchScreen.storyboard */; };
 		3AD826C821E8A2DC004F5CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD826C721E8A2DC004F5CCA /* main.m */; };
-		3AD826D021E8A46E004F5CCA /* WLAssertionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD826CF21E8A46E004F5CCA /* WLAssertionHandler.m */; };
 		A5A796808A803EF6718D4EEC /* libPods-WLAssertionHandlerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9B4164C6E9A98AB322F61A /* libPods-WLAssertionHandlerTest.a */; };
 /* End PBXBuildFile section */
 
@@ -22,8 +20,6 @@
 		0215C8C371B7724765755ACE /* Pods-WLAssertionHandlerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLAssertionHandlerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLAssertionHandlerTest/Pods-WLAssertionHandlerTest.release.xcconfig"; sourceTree = "<group>"; };
 		0F7363CF292F8CA3E6C45554 /* Pods-WLAssertionHandlerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLAssertionHandlerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLAssertionHandlerTest/Pods-WLAssertionHandlerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		2C9B4164C6E9A98AB322F61A /* libPods-WLAssertionHandlerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLAssertionHandlerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A233B7621EC8049004B25F2 /* WLAssertionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAssertionContext.h; sourceTree = "<group>"; };
-		3A233B7721EC8049004B25F2 /* WLAssertionContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAssertionContext.m; sourceTree = "<group>"; };
 		3AD826B521E8A2DA004F5CCA /* WLAssertionHandlerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLAssertionHandlerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD826B821E8A2DA004F5CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AD826B921E8A2DA004F5CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +30,6 @@
 		3AD826C421E8A2DC004F5CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AD826C621E8A2DC004F5CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AD826C721E8A2DC004F5CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3AD826CE21E8A46E004F5CCA /* WLAssertionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAssertionHandler.h; sourceTree = "<group>"; };
-		3AD826CF21E8A46E004F5CCA /* WLAssertionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAssertionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +77,6 @@
 				3AD826B921E8A2DA004F5CCA /* AppDelegate.m */,
 				3AD826BB21E8A2DA004F5CCA /* ViewController.h */,
 				3AD826BC21E8A2DA004F5CCA /* ViewController.m */,
-				3AD826CE21E8A46E004F5CCA /* WLAssertionHandler.h */,
-				3AD826CF21E8A46E004F5CCA /* WLAssertionHandler.m */,
-				3A233B7621EC8049004B25F2 /* WLAssertionContext.h */,
-				3A233B7721EC8049004B25F2 /* WLAssertionContext.m */,
 				3AD826BE21E8A2DA004F5CCA /* Main.storyboard */,
 				3AD826C121E8A2DC004F5CCA /* Assets.xcassets */,
 				3AD826C321E8A2DC004F5CCA /* LaunchScreen.storyboard */,
@@ -241,9 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD826D021E8A46E004F5CCA /* WLAssertionHandler.m in Sources */,
 				3AD826BD21E8A2DA004F5CCA /* ViewController.m in Sources */,
-				3A233B7821EC8049004B25F2 /* WLAssertionContext.m in Sources */,
 				3AD826C821E8A2DC004F5CCA /* main.m in Sources */,
 				3AD826BA21E8A2DA004F5CCA /* AppDelegate.m in Sources */,
 			);
